@@ -1,0 +1,97 @@
+<!-- <p>page1 works!</p> -->
+
+
+      
+    
+<div class="header">
+    <div class="left_div">
+     <img src="assets/menu.svg" alt="menu" class="menu"/>
+     <img src="assets/yono_logo.png" alt="logo" class="headerlogo"/>
+    </div>
+     
+     <nav class="right_div">
+         <div class="user-box">
+             <img src='assets/user.png' alt="info" class="user-icon"/>
+             <span class="user-info">Welcome Mr. Vivek <br/> Last login: 20/05/2022, 10:00 AM</span>
+         </div>
+         <ul>
+             <li><img src='assets/info.png' alt="info" class="list-icon"/></li>
+             <li><img src='assets/settings.png' alt="info" class="list-icon"/></li>
+             <li><img src='assets/contact.png' alt="info" class="list-icon"/></li>
+             <li><img src='assets/noti.png' alt="info" class="list-icon"/></li>
+             <li><img src='assets/logout.png' routerLink="/logout"   alt="info" class="list-icon"/></li>
+         </ul>
+     </nav>
+</div>
+<div class="left_nav">
+    <div class="left-menu-itemactive">
+     <img src='assets/homewhite.png' alt="info" class="left-menu-item-icon"/>
+    </div>
+    <div class="left-menu-item">
+     <a routerLink="/page1"><img src='assets/home.png'  alt="info" class="left-menu-item-icon"/></a>
+
+    </div>
+
+</div>
+<div class="main">
+            <div class="main-top-menu-wrapper">
+                <div  class="main-top-menu">
+                    Hello User, Welcome to OnlineInternet Banking ! &nbsp;
+                </div>
+                
+            </div>
+            
+            <div class="container">
+
+                               <label>Overview </label><br>
+                               <br>
+
+                                    <div class="alert-success"> 
+                                           
+                                    </div>
+                           
+            </div>
+     
+            <h2>Automatic Slideshow</h2>
+            <p>Change image every 2 seconds:</p>
+            
+            <div class="slideshow-container">
+            
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="assets/3.jpg" style="width:100%">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="assets/2.jpg" style="width:100%">
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="assets/1.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+    <div class="container">
+       
+           <div style="padding-left:10px;padding-right: 10px;">
+               
+             
+          <div>
+
+    </div>
+ </div>
+
+ 
+<router-outlet> </router-outlet>
